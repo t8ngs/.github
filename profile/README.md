@@ -1,89 +1,53 @@
-# Welcome to t8ngs 🧪
+# T8ngs
 
-> **"test eight things"** - Testing solutions that are simple, fast, and powerful.
+O **T8ngs** (lê-se *Test Eight Things*) é um framework de testes inspirado no [Japa](https://github.com/japa), criado para ser **simples, direto e sem inchaço**.  
+Ele nasce com a filosofia de que testar **backend e bibliotecas Node.js** não precisa ser complicado.  
 
-We are a technology-focused organization dedicated to building innovative testing solutions and contributing to the open source community. Our mission is to make testing more accessible, efficient, and enjoyable for developers worldwide.
-
-## 🚀 Our Flagship Project
-
-### [@t8ngs/core](https://github.com/t8ngs/core)
-[![npm version](https://badge.fury.io/js/@t8ngs%2Fcore.svg)](https://badge.fury.io/js/@t8ngs%2Fcore)
-[![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg)](https://www.typescriptlang.org)
-
-A lightweight, TypeScript-first testing framework core that provides the essential building blocks for creating test runners and testing frameworks. Inspired by modern testing practices, it offers:
-
-- 🎯 **TypeScript First**: Built with TypeScript for excellent type safety and IntelliSense
-- 📦 **Dual Module Support**: Works with both ESM and CommonJS
-- 🔧 **Extensible Architecture**: Designed to be extended and customized
-- 🚀 **Lightweight & Fast**: Minimal dependencies, maximum performance
-- 🧪 **Event-driven System**: Rich event system for building reporters and plugins
-- 🏷️ **Flexible Filtering**: Filter tests by tags, titles, or custom criteria
-
-```typescript
-import { Runner, Test } from '@t8ngs/core'
-
-const runner = new Runner()
-const test = new Test('should work correctly', (context) => {
-  // Your test logic here
-})
-
-runner.add(test)
-const summary = await runner.run()
-```
-
-## 🎯 Our Mission
-
-- 🚀 **Innovation**: Developing cutting-edge testing solutions using modern technologies
-- 🌐 **Open Source**: Contributing to the global developer community
-- 📚 **Knowledge Sharing**: Promoting learning and collaboration in testing practices
-- 🔧 **Quality**: Maintaining high standards in code quality and documentation
-- ⚡ **Performance**: Building fast, efficient, and reliable testing tools
-
-## 🛠️ Technologies We Love
-
-- **TypeScript** - For type safety and developer experience
-- **Node.js** - For robust backend solutions
-- **Modern JavaScript** - ESM, async/await, and latest features
-- **Testing Frameworks** - Building and improving testing ecosystems
-- **Open Source** - Transparent, collaborative development
-
-## 🤝 Get Involved
-
-We welcome contributions from developers of all skill levels! Here's how you can get involved:
-
-### 🌟 Star Our Repositories
-Show your support by starring our projects - it helps us understand what the community finds valuable.
-
-### 🍴 Fork & Contribute
-- Check out our [contribution guidelines](https://github.com/t8ngs/core#contributing)
-- Look for issues labeled `good first issue` or `help wanted`
-- Submit pull requests with improvements, bug fixes, or new features
-
-### 💬 Join the Conversation
-- Open issues for bug reports or feature requests
-- Share your ideas and feedback
-- Help answer questions from other community members
-
-### 📖 Documentation
-Help us improve our documentation - from fixing typos to writing comprehensive guides.
-
-## 📚 Resources
-
-- 📦 **npm**: [@t8ngs/core](https://www.npmjs.com/package/@t8ngs/core)
-- 📖 **Documentation**: Check individual repository READMEs for detailed guides
-- 🐛 **Issues**: Report bugs or request features in the respective repositories
-- 💡 **Discussions**: Join conversations about testing best practices
-
-## 📬 Connect With Us
-
-- 📧 **Maintainer**: [@JefteCosta](https://github.com/JefteCosta) (jefteamorim@gmail.com)
-- 🐙 **GitHub Issues**: For questions, bug reports, or feature requests
-- ⭐ **Follow us**: Stay updated with our latest projects and releases
-
-## 📄 License
-
-Our projects are typically released under the MIT License, promoting open collaboration and reuse. Check individual repositories for specific licensing information.
+Enquanto muitos frameworks de teste surgiram no ecossistema **frontend**, o T8ngs foca apenas no **backend**.  
+👉 Isso significa mais leveza, mais performance e menos distrações.
 
 ---
 
-*Building better testing tools, one commit at a time.* 🚀
+## ✨ O que é o T8ngs?
+
+O nome vem da ideia de **“Test Eight Things”** — porque acreditamos que toda aplicação robusta deve passar por pelo menos **oito dimensões de testes** para garantir qualidade.  
+
+Essas dimensões não são linhas de código, mas **conceitos universais** que ajudam você a estruturar sua estratégia de testes.
+
+---
+
+## 🔎 As 8 coisas que o T8ngs ajuda você a testar
+
+1. **Funcionalidade** – Verifique se a aplicação faz exatamente o que deveria.  
+2. **Performance** – Garanta que as respostas sejam rápidas e escaláveis.  
+3. **Confiabilidade** – Teste a consistência das respostas em diferentes cenários.  
+4. **Segurança** – Valide autenticação, permissões e proteção contra falhas comuns.  
+5. **Integração** – Cheque se módulos, APIs e serviços externos funcionam bem juntos.  
+6. **Manutenibilidade** – Avalie se o código continua funcionando após mudanças.  
+7. **Experiência do desenvolvedor** – Assegure que erros sejam claros e fáceis de rastrear.  
+8. **Cobertura** – Tenha visibilidade do quanto do sistema está realmente testado.  
+
+---
+
+## 🚀 Por que usar o T8ngs?
+
+- 🔥 **Sem transpilers, sem overhead** – Roda direto no Node.js, sem camadas extras.  
+- ⚡ **Mais rápido** – Inicialização instantânea e execução enxuta.  
+- 🧩 **Compatível com setups existentes** – Funciona com o que você já usa.  
+- 🖥️ **Foco no backend** – Não tenta ser um framework universal, apenas o que você precisa.  
+- 📊 **Clareza e simplicidade** – Relatórios claros, erros formatados e diffs elegantes.  
+
+---
+
+## 🌟 Filosofia
+
+O **T8ngs** existe para mostrar que **menos é mais**.  
+Você não precisa de ferramentas pesadas para criar uma base sólida de testes.  
+
+👉 Com o T8ngs, você foca no essencial: garantir que suas **oito coisas** críticas estejam sempre sob controle.  
+
+---
+
+## 📜 Licença
+
+[MIT License](./LICENSE) © T8ngs
