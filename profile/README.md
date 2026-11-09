@@ -1,6 +1,6 @@
 # T8ngs
 
-O **T8ngs** (lê-se *Test Eight Things*) é um framework de testes inspirado no [Japa](https://github.com/japa), criado para ser **simples, direto e sem inchaço**.  
+O **T8ngs** (lê-se *Test Eight Things*) é um framework de testes inspirado no [Jest](https://jestjs.io/pt-BR/), criado para ser **simples, direto e sem inchaço**.  
 Ele nasce com a filosofia de que testar **backend e bibliotecas Node.js** não precisa ser complicado.  
 
 Enquanto muitos frameworks de teste surgiram no ecossistema **frontend**, o T8ngs foca apenas no **backend**.  
